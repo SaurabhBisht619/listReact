@@ -1,0 +1,22 @@
+
+
+import React from 'react'
+
+let name = "saurabh";
+
+let obj ={
+    color:"red",
+    backgroundColor:"gray",
+    textAlign: "center"
+}
+
+
+function App() {
+  return (
+    <div>
+      <h1 style={obj} >Hello {name}</h1>
+    </div>
+  )
+}
+
+export default App
